@@ -69,7 +69,7 @@ IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 #Channel & Group link 
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+YURZZiRGA742ZTA9')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+DkJ1W6LHiaxhZTg1')
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Morning006')
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/L_uciBot')
 DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK = environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/+xM6uMNT4TQhiMTA1')
 
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
